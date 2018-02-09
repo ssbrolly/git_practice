@@ -1,9 +1,10 @@
 require 'colorize'
+require_relative 'git'
+
+class Main
+  include Git
 
 
-def puts_git(cmd)
-  puts `git #{cmd} -h`
-end
 
 def menu
   puts "MAIN MENU".colorize(:cyan)
@@ -23,6 +24,7 @@ def menu
     puts 'Invalid choice'.colorize(:red)
     menu
   end
+end
 end
 
 
