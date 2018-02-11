@@ -1,4 +1,25 @@
 hello dude
 
-to clone a repository
+#to clone a repository
 git clone "reponame" .
+
+#to pull changes from repo (do this everytime logging in to git OR when you know repo has been changed.)
+git pull
+
+#to check if repo has been changed
+git log
+git show "paste"
+git diff    shows difference.
+
+
+#if adding a new file
+git add "filename1 filename2 filename3"
+git add -a
+
+#to commit changes to my local repo
+git commit "filename1 filename2 filename3"
+git commit -a
+
+
+#push to remote repo.
+git push origin master
