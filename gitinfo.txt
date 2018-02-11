@@ -1,0 +1,4 @@
+hello dude
+
+to clone a repository
+git clone "reponame" .
